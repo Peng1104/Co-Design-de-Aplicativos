@@ -1,0 +1,75 @@
+.header {
+	background-color: red;
+	position: relative;
+	margin: 20px;
+}
+.name {
+	z-index: 0;
+	display: inline-block;
+	position: relative;
+
+	border-style: solid;
+	border-radius: 30px;
+	border-width: 2px;
+
+	margin: 0px 0px 0px -60px;
+	padding: 20px 20px 20px 60px;
+	bottom: 55px;
+
+	background-color: gold;
+}
+.img_perfil {
+	z-index: 2;
+	position: relative;
+
+	border-style: solid;
+	border-radius: 60px;
+	border-width: 2px;
+
+	margin: 0px 0px 0px -30px;
+}
+.img_menu {
+	z-index: 1;
+	position: relative;
+
+	border-style: solid;
+	border-radius: 30px;
+	border-width: 2px;
+
+	margin: 0px 0px 0px 0px;
+}
+.h2 {
+	margin: 0px 0px 20px 50px;
+	display: inline-block;	
+	background-color: gold;
+}
+.texto1 {
+	display: block;
+	position: relative;
+	margin: 0px 20px 20px 50px;
+	border-style: solid;
+	border-width: 2px;		
+}
+.tela {
+	position: relative;
+	background-color: gold;
+}
+.bloco1 {
+	border-style: solid;
+	position: relative;
+	border-width: 2px;
+	width: 960px;
+	height: 960px;
+	background-color: grey;
+}
+.bloco2 {
+	border-style: solid;
+	position: relative;
+	display: inline-block;
+	border-width: 2px;
+	left: 960px;
+	bottom: 964px;
+	width: 960px;
+	height: 960px;
+	background-color: grey;
+}
