@@ -27,6 +27,25 @@
 
 	margin: 0px 0px 0px -30px;
 }
+.img_perfil_alt {
+	z-index: 2;
+	position: relative;
+
+	border-style: solid;
+	border-radius: 60px;
+	border-width: 2px;
+
+	margin: 30px 0px 0px 0px;
+}
+.img_trabalho {
+	z-index: 2;
+	position: relative;
+
+	border-style: solid;
+	border-width: 2px;
+
+	margin: 0px 0px 0px 0px;
+}
 .img_menu {
 	z-index: 1;
 	position: relative;
@@ -49,6 +68,13 @@
 	border-radius: 30px;
 	margin: 0px 20px 0px 20px;
 	padding: 20px;
+}
+.subbloco2 {
+	background-color: white;
+	border-radius: 30px;
+	margin: 20px 20px 0px 20px;
+	padding: 20px;
+	bottom: 5px;
 }
 .tela {
 	position: relative;
@@ -109,6 +135,11 @@
 	width: 900px;
 }
 .h2_b2 {
+	background-color: white;
+	padding: 10px 0px 10px 400px ;
+	margin: 20px;
+}
+.h2_b3 {
 	background-color: white;
 	padding: 10px 0px 10px 400px ;
 	margin: 20px;
