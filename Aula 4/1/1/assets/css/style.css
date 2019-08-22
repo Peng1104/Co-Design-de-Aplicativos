@@ -101,6 +101,13 @@
 	border-radius: 70px;
 	margin: 20px;
 }
+.projetos {
+	background-color: white;
+	position: relative;
+	border-radius: 70px;
+	margin: 20px;
+	width: 900px;
+}
 .h2_b2 {
 	background-color: white;
 	padding: 10px 0px 10px 400px ;
@@ -125,6 +132,14 @@
 	display: inline-block;
 	position: relative;
 	right: 40px;
+	bottom: 10px;
+	width: 700px;
+}
+.texto_cat_alter {
+	display: inline-block;
+	position: relative;
+	right: 20px;
+	left: 40px;
 	bottom: 10px;
 	width: 700px;
 }
