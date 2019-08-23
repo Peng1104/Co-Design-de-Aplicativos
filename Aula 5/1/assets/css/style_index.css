@@ -1,0 +1,166 @@
+
+INDEX
+.header {
+	position: relative;
+	margin: 20px 0px 0px 20px;
+}
+.name {
+	z-index: 0;
+	display: inline-block;
+	position: relative;
+
+	border-style: solid;
+	border-radius: 30px;
+	border-width: 2px;
+
+	margin: 0px 0px 0px -60px;
+	padding: 20px 20px 20px 60px;
+	bottom: 55px;
+
+	background-color: gold;
+}
+.img_perfil {
+	z-index: 2;
+	position: relative;
+
+	border-style: solid;
+	border-radius: 60px;
+	border-width: 2px;
+
+	margin: 0px 0px 0px -30px;
+}
+.img_perfil_alt {
+	z-index: 2;
+	position: relative;
+
+	border-style: solid;
+	border-radius: 60px;
+	border-width: 2px;
+
+	margin: 30px 0px 0px 0px;
+}
+.img_trabalho {
+	z-index: 2;
+	position: relative;
+
+	border-style: solid;
+	border-width: 2px;
+
+	margin: 0px 0px 0px 0px;
+}
+.img_menu {
+	z-index: 1;
+	position: relative;
+
+	border-style: solid;
+	border-radius: 30px;
+	border-width: 2px;
+}
+.h2_b1 {
+	margin: 0px 0px 15px 0px;
+	display: inline-block;	
+}
+.texto1 {
+	display: block;
+	position: relative;
+	margin: 0px 0px 0px 0px;
+}
+.subbloco1 {
+	background-color: white;
+	border-radius: 30px;
+	margin: 0px 20px 0px 20px;
+	padding: 20px;
+}
+.subbloco2 {
+	background-color: white;
+	border-radius: 30px;
+	margin: 20px 20px 0px 20px;
+	padding: 20px;
+	bottom: 5px;
+}
+.tela {
+	position: relative;
+	width: 2030px;
+	background-color: gold;
+}
+.bloco1 {
+	border-style: solid;
+	position: relative;
+	border-width: 2px;
+	left: 3px;
+	top: 5px;
+	width: 945px;
+	height: 960px;
+	background-color: grey;
+}
+.bloco2 {
+	border-style: solid;
+	position: relative;
+	display: inline-block;
+	border-width: 2px;
+	left: 950px;
+	bottom: 959px;
+	width: 945px;
+	height: 960px;
+	background-color: grey;
+}
+.contatos {
+	border-style: solid;
+	position: relative;
+	border-width: 2px;
+	bottom: 1000px;
+	width: 1899px;
+	height: 50px;
+	background-color: red;
+	padding: 5px 0px 0px 0px;
+}
+.contatos_text {
+	position: relative;
+	left: 450px;
+}
+.video {
+	border-style: solid;
+	border-width: 5px;
+	margin: 20px 0px 10px 30px;
+}
+.categorias {
+	background-color: white;
+	position: relative;
+	border-radius: 70px;
+	margin: 20px;
+}
+.h2_b2 {
+	background-color: white;
+	padding: 10px 0px 10px 350px ;
+	margin: 20px;
+}
+.h2_b3 {
+	background-color: white;
+	padding: 10px 0px 10px 400px ;
+	margin: 20px;
+}
+.img_cat {
+	position: relative;
+	border-radius: 70px;
+	border-style: solid;
+	border-width: 8px;
+	border-color: gold;
+	top: 1px;
+	left: 1px;
+}
+.titulo_cat {
+	display: inline-block;
+	position: relative;
+	bottom: 100px;
+	left: 6px;
+
+}
+.texto_cat {
+	display: inline-block;
+	position: relative;
+	right: 40px;
+	bottom: 10px;
+	width: 700px;
+}
+
+
