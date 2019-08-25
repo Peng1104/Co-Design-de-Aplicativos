@@ -2,15 +2,17 @@
 
 .tela {
 	display: grid;
-	grid-template: auto / 25% 25% 25% 25%;
-	background-color: gold;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-gap: 2rem;
+	grid-template-rows: auto;
+	background-color: gray;
 	grid-template-areas:
 	"header . bloco2 bloco2"
-	"texto1 . bloco2 bloco2"
 	"texto texto bloco2 bloco2"
 	"texto texto bloco2 bloco2"
-	"imagem imagem bloco2 bloco2"
-	"contato . . .";
+	"texto texto bloco2 bloco2"
+	"texto texto bloco2 bloco2"
+	"contato contato contato contato";
 }
 .header {
 	grid-area: header;
@@ -32,45 +34,68 @@
 	border-style: solid;
 	border-radius: 2rem;
 	border-width: 0.1rem;
-	background-color: white;
-}
-.texto1 {
-	background-color: white;
-	grid-area: texto1;
+	background-color: gold;
+	align-self: center;
 }
 .texto {
 	background-color: white;
 	grid-area: texto;
+	display: flex;
+	justify-content: center;
+  flex-direction: column;
 }
 .imagem {
 	grid-area: imagem;
+	display: flex;
+	justify-content: center;
 }
 .contato {
 	grid-area: contato;
+	border-style: solid;
+	border-width: 0.1rem;
+	background-color: red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .cat1 {
 	grid-area: cat1;
 	border-radius: 4.6rem;
 	border-style: solid;
-	border-width: 0.01rem;
+	border-width: 0.1rem;
+	border-color: gray;
+	display: flex;
+	background-color: white;
+	align-items: center;
 }
 .cat2 {
 	grid-area: cat2;
 	border-radius: 4.6rem;
 	border-style: solid;
-	border-width: 0.01rem;
+	border-width: 0.1rem;
+	border-color: gray;
+	display: flex;
+	background-color: white;
+	align-items: center;
 }
 .cat3 {
 	grid-area: cat3;
 	border-radius: 4.6rem;
 	border-style: solid;
-	border-width: 0.01rem;
+	border-width: 0.1rem;
+	border-color: gray;
+	display: flex;
+	background-color: white;
+	align-items: center;
+	justify-content: center;
 }
 
 .titulo {
 	grid-area: titulo;
 	display: flex;
 	justify-content: center;
+	align-items: center;
+	background-color: white;
 }
 .img_cat {
 	border-radius: 4.6rem;
@@ -79,6 +104,8 @@
 	border-color: gold;
 }
 .bloco2 {
+	grid-area: bloco2;
+	grid-gap: 1rem;
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: auto;
