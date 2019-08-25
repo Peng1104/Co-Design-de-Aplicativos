@@ -54,11 +54,6 @@
   border-color: gray;
   border-width: 0.1rem;
 }
-.imagem {
-	grid-area: imagem;
-	display: flex;
-	justify-content: center;
-}
 .contato {
 	grid-area: contato;
 	border-style: solid;
