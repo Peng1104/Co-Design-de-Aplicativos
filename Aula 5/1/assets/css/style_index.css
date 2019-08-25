@@ -5,11 +5,11 @@
 	grid-template: auto / 25% 25% 25% 25%;
 	background-color: gold;
 	grid-template-areas:
-	"header . titulo titulo"
-	"texto1 . cat1 cat1"
-	"texto texto cat2 cat2"
-	"texto texto cat3 cat3"
-	"imagem imagem . ."
+	"header . bloco2 bloco2"
+	"texto1 . bloco2 bloco2"
+	"texto texto bloco2 bloco2"
+	"texto texto bloco2 bloco2"
+	"imagem imagem bloco2 bloco2"
 	"contato . . .";
 }
 .header {
@@ -32,7 +32,7 @@
 	border-style: solid;
 	border-radius: 2rem;
 	border-width: 0.1rem;
-	background-color: gold;
+	background-color: white;
 }
 .texto1 {
 	background-color: white;
@@ -50,13 +50,68 @@
 }
 .cat1 {
 	grid-area: cat1;
+	border-radius: 4.6rem;
+	border-style: solid;
+	border-width: 0.01rem;
 }
 .cat2 {
 	grid-area: cat2;
+	border-radius: 4.6rem;
+	border-style: solid;
+	border-width: 0.01rem;
 }
 .cat3 {
 	grid-area: cat3;
+	border-radius: 4.6rem;
+	border-style: solid;
+	border-width: 0.01rem;
 }
-.cat4 {
-	grid-area: cat4;
+
+.titulo {
+	grid-area: titulo;
+	display: flex;
+	justify-content: center;
+}
+.img_cat {
+	border-radius: 4.6rem;
+	border-style: solid;
+	border-width: 0.53rem;
+	border-color: gold;
+}
+.bloco2 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto;
+	grid-template-areas: 
+	"titulo"
+	"cat1_titulo"
+	"cat1"
+	"cat2_titulo"
+	"cat2"
+	"cat3_titulo"
+	"cat3";
+}
+.cat1_titulo {
+	grid-area: cat1_titulo;
+	display: flex;
+	justify-content: center;
+	background-color: white;
+	border-style: solid;
+	border-width: 0.1rem;
+}
+.cat2_titulo {
+	grid-area: cat2_titulo;
+	display: flex;
+	justify-content: center;
+	background-color: white;
+	border-style: solid;
+	border-width: 0.1rem;
+}
+.cat3_titulo {
+	grid-area: cat3_titulo;
+	display: flex;
+	justify-content: center;
+	background-color: white;
+	border-style: solid;
+	border-width: 0.1rem;
 }
