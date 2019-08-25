@@ -16,12 +16,17 @@
 }
 .header {
 	grid-area: header;
+  display: flex;
+  align-items: center;
+  justify-content: stretch;
 }
 .img_menu {
 	z-index: 1;
 	border-style: solid;
 	border-radius: 2rem;
 	border-width: 0.1rem;
+  display: flex;
+  align-self: flex-end;
 }
 .img_perfil {
 	z-index: 2;
@@ -43,6 +48,11 @@
 	display: flex;
 	justify-content: center;
   flex-direction: column;
+  padding: 3rem;
+  border-style: solid;
+  border-radius: 3rem;
+  border-color: gray;
+  border-width: 0.1rem;
 }
 .imagem {
 	grid-area: imagem;
@@ -107,7 +117,7 @@
 	grid-area: bloco2;
 	grid-gap: 1rem;
 	display: grid;
-	grid-template-columns: 1fr;
+	grid-template-columns: 100%;
 	grid-template-rows: auto;
 	grid-template-areas: 
 	"titulo"
@@ -122,6 +132,7 @@
 	grid-area: cat1_titulo;
 	display: flex;
 	justify-content: center;
+  align-items: center;
 	background-color: white;
 	border-style: solid;
 	border-width: 0.1rem;
@@ -130,6 +141,7 @@
 	grid-area: cat2_titulo;
 	display: flex;
 	justify-content: center;
+  align-items: center;
 	background-color: white;
 	border-style: solid;
 	border-width: 0.1rem;
@@ -138,6 +150,7 @@
 	grid-area: cat3_titulo;
 	display: flex;
 	justify-content: center;
+  align-items: center;
 	background-color: white;
 	border-style: solid;
 	border-width: 0.1rem;
