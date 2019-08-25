@@ -5,7 +5,7 @@
   border-radius: 60rem;
   border-width: 0.1rem;
 
-  margin: 0px 0px 0px -30px;
+  margin: 0rem 0rem 0rem -2.8rem;
 }
 .img_index {
   z-index: 2;
@@ -22,13 +22,13 @@
   border-style: solid;
   border-radius: 30rem;
   border-width: 0.1rem;
-  margin: 0rem 0rem 0rem -6rem;
+  margin: -10rem 0rem 0rem -6rem;
   padding: 2rem 2rem 2rem 6rem;
   bottom: 5rem;
   background-color: gold;
 }
-.logo {
-  grid-area: logo;
+.area_logo {
+  grid-area: area_logo;
 }
 .titulo {
   grid-area: titulo;
@@ -63,7 +63,7 @@
   display: grid;
   grid-template-areas:
 
-  "logo . titulo titulo"
+  "area_logo . titulo ."
   "img_categoria nome_categoria . ."
   "txt_categoria txt_categoria projeto1 projeto3"
   "txt_categoria txt_categoria projeto2 projeto4"
