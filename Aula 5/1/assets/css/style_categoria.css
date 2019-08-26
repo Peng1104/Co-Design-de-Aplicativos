@@ -1,71 +1,121 @@
+.projetos {
+  grid-area: projetos;
+
+  display: grid;
+
+  grid-template-areas:
+  "projeto1 projeto2"
+  "projeto3 projeto4";
+}
+.txt_titulo {
+  background-color: white;
+  display: block;
+  font-size: 1.5rem;
+  padding: 1.3rem 15rem;
+}
+.titulo {
+  grid-area: titulo;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  justify-self: center;
+}
+.nome_categoria {
+  position: relative;
+  font-size: 1.5rem;
+  bottom: 5rem;
+  left: 50%;
+}
+.descricao_categoria {
+  display: block;
+  position: relative;
+  margin: 2rem;
+  bottom: 2.6rem;
+}
+.img_categoria {
+  position: relative;
+  left: 13%;
+}
+.categoria {
+  grid-area: categoria;
+  background-color: white;
+  border-radius: 5rem;
+}
 .img_perfil {
   z-index: 3;
-
+  position: relative;
   border-style: solid;
   border-radius: 60rem;
   border-width: 0.1rem;
-
   margin: 0rem 0rem 0rem -2.8rem;
 }
 .img_index {
   z-index: 2;
-
+  position: relative;
   border-style: solid;
   border-radius: 30rem;
   border-width: 0.1rem;
 }
 .autor_name {
   z-index: 1;
-
+  position: relative;
+  bottom: 1.8rem;
   font-size: 3rem;
   display: inline-block;
   border-style: solid;
   border-radius: 30rem;
   border-width: 0.1rem;
-  margin: -10rem 0rem 0rem -6rem;
-  padding: 2rem 2rem 2rem 6rem;
-  bottom: 5rem;
+  margin: 0rem 0rem 0rem -5rem;
+  padding: 1rem 1rem 1rem 5rem;
   background-color: gold;
 }
-.area_logo {
-  grid-area: area_logo;
-}
-.titulo {
-  grid-area: titulo;
-  background-color: white;
-}
-.txt_categoria {
-  grid-area: txt_categoria;
-  background-color: cyan;
-}
-.projeto1 {
-  grid-area: projeto1;
-  background-color: green;
-}
-.projeto2 {
-  grid-area: projeto2;
-  background-color: red;
-}
-.projeto3 {
-  grid-area: projeto3;
-  background-color: blue;
-}
-.projeto4 {
-  grid-area: projeto4;
-  background-color: yellow;
+.logo {
+  grid-area: logo;
 }
 .contato {
   grid-area: contato;
   background-color: orange;
 }
-.tela {
-  background-color: gray;
-  display: grid;
-  grid-template-areas:
+.bloco2 {
+  grid-area: bloco2;
 
-  "area_logo . titulo ."
-  "img_categoria nome_categoria . ."
-  "txt_categoria txt_categoria projeto1 projeto3"
-  "txt_categoria txt_categoria projeto2 projeto4"
-  "contato . . .";
+  margin-left: 0.2rem;
+  border-left: 0.1rem;
+  border-style: solid;
+  border-color: black;
+
+  display: grid;
+
+  grid-template-rows: 20% 80%;
+
+  grid-template-areas: 
+  "titulo"
+  "projetos";
+}
+.bloco1 {
+  grid-area: bloco1;
+
+  display: grid;
+
+  grid-template-rows: 20% 40% 40%;
+
+  grid-template-areas: 
+  "logo"
+  "categoria";
+}
+.tela {
+  background-color: grey;
+
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 95% 5%;
+
+  grid-template-areas:
+  "bloco1 bloco2"
+  "contato contato";
 }
