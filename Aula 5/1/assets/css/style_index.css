@@ -94,7 +94,6 @@
 	align-items: center;
 	justify-content: center;
 }
-
 .titulo {
 	grid-area: titulo;
 	display: flex;
@@ -110,6 +109,7 @@
 }
 .bloco2 {
 	grid-area: bloco2;
+  max-width: 90%;
 	grid-gap: 1rem;
 	display: grid;
 	grid-template-columns: 100%;
