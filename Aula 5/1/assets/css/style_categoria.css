@@ -1,12 +1,14 @@
 .txt_projeto {
+  grid-area: txt_projeto;
   bottom: 5rem;
   left: 2rem;
-
+  padding: 1rem;
   border-radius: 30rem;
 
   background-color: white;
 }
 .img_projeto {
+  grid-area: img_projeto;
   border-radius: 30rem;
 
   border-style: solid;
@@ -14,6 +16,8 @@
   border-color: gold;
 }
 .titulo_projeto {
+  grid-area: titulo_projeto;
+  
   font-size: 1.2rem;
 
   text-align: center;
@@ -24,6 +28,50 @@
 
   padding: 0.3rem;
   background-color: white;
+}
+.projeto4 {
+  grid-area: projeto4;
+
+  justify-content: center;
+  align-items: center;
+  display: grid;
+
+  grid-template-areas: 
+  "titulo_projeto titulo_projeto"
+  "img_projeto txt_projeto";
+}
+.projeto3 {
+  grid-area: projeto3;
+
+  justify-content: center;
+  align-items: center;
+  display: grid;
+
+  grid-template-areas: 
+  "titulo_projeto titulo_projeto"
+  "img_projeto txt_projeto";
+}
+.projeto2 {
+  grid-area: projeto2;
+
+  justify-content: center;
+  align-items: center;
+  display: grid;
+
+  grid-template-areas: 
+  "titulo_projeto titulo_projeto"
+  "img_projeto txt_projeto";
+}
+.projeto1 {
+  grid-area: projeto1;
+
+  justify-content: center;
+  align-items: center;
+  display: grid;
+
+  grid-template-areas: 
+  "titulo_projeto titulo_projeto"
+  "img_projeto txt_projeto";
 }
 .projetos {
   grid-area: projetos;

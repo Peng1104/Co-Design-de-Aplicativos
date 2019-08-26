@@ -1,52 +1,52 @@
 /* INDEX */
 
 .tela {
-	display: grid;
-	grid-template-columns: 25% 25% 25% 25%;
-	grid-gap: 2rem;
-	grid-template-rows: auto;
-	background-color: gray;
-	grid-template-areas:
-	"header . bloco2 bloco2"
-	"texto texto bloco2 bloco2"
-	"texto texto bloco2 bloco2"
-	"texto texto bloco2 bloco2"
-	"texto texto bloco2 bloco2"
-	"contato contato contato contato";
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-gap: 2rem;
+  grid-template-rows: auto;
+  background-color: gray;
+  grid-template-areas:
+  "header . bloco2 bloco2"
+  "texto texto bloco2 bloco2"
+  "texto texto bloco2 bloco2"
+  "texto texto bloco2 bloco2"
+  "texto texto bloco2 bloco2"
+  "contato contato contato contato";
 }
 .header {
-	grid-area: header;
+  grid-area: header;
   display: flex;
   align-items: center;
   justify-content: stretch;
 }
 .img_menu {
-	z-index: 1;
-	border-style: solid;
-	border-radius: 2rem;
-	border-width: 0.1rem;
+  z-index: 1;
+  border-style: solid;
+  border-radius: 2rem;
+  border-width: 0.1rem;
   display: flex;
   align-self: flex-end;
 }
 .img_perfil {
-	z-index: 2;
-	border-style: solid;
-	border-radius: 4rem;
-	border-width: 0.1rem;
+  z-index: 2;
+  border-style: solid;
+  border-radius: 4rem;
+  border-width: 0.1rem;
 }
 .name {
-	z-index: 0;
-	border-style: solid;
-	border-radius: 2rem;
-	border-width: 0.1rem;
-	background-color: gold;
-	align-self: center;
+  z-index: 0;
+  border-style: solid;
+  border-radius: 2rem;
+  border-width: 0.1rem;
+  background-color: gold;
+  align-self: center;
 }
 .texto {
-	background-color: white;
-	grid-area: texto;
-	display: flex;
-	justify-content: center;
+  background-color: white;
+  grid-area: texto;
+  display: flex;
+  justify-content: center;
   flex-direction: column;
   padding: 3rem;
   border-style: solid;
@@ -55,98 +55,98 @@
   border-width: 0.1rem;
 }
 .contato {
-	grid-area: contato;
-	border-style: solid;
-	border-width: 0.1rem;
-	background-color: red;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  grid-area: contato;
+  border-style: solid;
+  border-width: 0.1rem;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .cat1 {
-	grid-area: cat1;
-	border-radius: 4.6rem;
-	border-style: solid;
-	border-width: 0.1rem;
-	border-color: gray;
-	display: flex;
-	background-color: white;
-	align-items: center;
+  grid-area: cat1;
+  border-radius: 4.6rem;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: gray;
+  display: flex;
+  background-color: white;
+  align-items: center;
 }
 .cat2 {
-	grid-area: cat2;
-	border-radius: 4.6rem;
-	border-style: solid;
-	border-width: 0.1rem;
-	border-color: gray;
-	display: flex;
-	background-color: white;
-	align-items: center;
+  grid-area: cat2;
+  border-radius: 4.6rem;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: gray;
+  display: flex;
+  background-color: white;
+  align-items: center;
 }
 .cat3 {
-	grid-area: cat3;
-	border-radius: 4.6rem;
-	border-style: solid;
-	border-width: 0.1rem;
-	border-color: gray;
-	display: flex;
-	background-color: white;
-	align-items: center;
-	justify-content: center;
+  grid-area: cat3;
+  border-radius: 4.6rem;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: gray;
+  display: flex;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
 }
 .titulo {
-	grid-area: titulo;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: white;
+  grid-area: titulo;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
 }
 .img_cat {
-	border-radius: 4.6rem;
-	border-style: solid;
-	border-width: 0.53rem;
-	border-color: gold;
+  border-radius: 4.6rem;
+  border-style: solid;
+  border-width: 0.53rem;
+  border-color: gold;
 }
 .bloco2 {
-	grid-area: bloco2;
+  grid-area: bloco2;
   max-width: 90%;
-	grid-gap: 1rem;
-	display: grid;
-	grid-template-columns: 100%;
-	grid-template-rows: auto;
-	grid-template-areas: 
-	"titulo"
-	"cat1_titulo"
-	"cat1"
-	"cat2_titulo"
-	"cat2"
-	"cat3_titulo"
-	"cat3";
+  grid-gap: 1rem;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "titulo"
+  "cat1_titulo"
+  "cat1"
+  "cat2_titulo"
+  "cat2"
+  "cat3_titulo"
+  "cat3";
 }
 .cat1_titulo {
-	grid-area: cat1_titulo;
-	display: flex;
-	justify-content: center;
+  grid-area: cat1_titulo;
+  display: flex;
+  justify-content: center;
   align-items: center;
-	background-color: white;
-	border-style: solid;
-	border-width: 0.1rem;
+  background-color: white;
+  border-style: solid;
+  border-width: 0.1rem;
 }
 .cat2_titulo {
-	grid-area: cat2_titulo;
-	display: flex;
-	justify-content: center;
+  grid-area: cat2_titulo;
+  display: flex;
+  justify-content: center;
   align-items: center;
-	background-color: white;
-	border-style: solid;
-	border-width: 0.1rem;
+  background-color: white;
+  border-style: solid;
+  border-width: 0.1rem;
 }
 .cat3_titulo {
-	grid-area: cat3_titulo;
-	display: flex;
-	justify-content: center;
+  grid-area: cat3_titulo;
+  display: flex;
+  justify-content: center;
   align-items: center;
-	background-color: white;
-	border-style: solid;
-	border-width: 0.1rem;
+  background-color: white;
+  border-style: solid;
+  border-width: 0.1rem;
 }
