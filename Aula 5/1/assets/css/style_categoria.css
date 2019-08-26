@@ -1,3 +1,30 @@
+.txt_projeto {
+  bottom: 5rem;
+  left: 2rem;
+
+  border-radius: 30rem;
+
+  background-color: white;
+}
+.img_projeto {
+  border-radius: 30rem;
+
+  border-style: solid;
+  border-width: 0.5rem;
+  border-color: gold;
+}
+.titulo_projeto {
+  font-size: 1.2rem;
+
+  text-align: center;
+
+  border-style: solid;
+  border-radius: 30rem;
+  border-width: 0.1rem;
+
+  padding: 0.3rem;
+  background-color: white;
+}
 .projetos {
   grid-area: projetos;
 
@@ -11,14 +38,11 @@
   background-color: white;
   display: block;
   font-size: 1.5rem;
+  text-align: center;
   padding: 1.3rem 15rem;
 }
 .titulo {
   grid-area: titulo;
-  justify-items: center;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
   align-self: center;
   justify-self: center;
 }
@@ -29,19 +53,20 @@
   left: 50%;
 }
 .descricao_categoria {
-  display: block;
-  position: relative;
+  background-color: white;
   margin: 2rem;
-  bottom: 2.6rem;
+  bottom: 2rem;
+  text-align: center;
 }
 .img_categoria {
   position: relative;
+  top: 1.2rem;
   left: 13%;
 }
 .categoria {
   grid-area: categoria;
   background-color: white;
-  border-radius: 5rem;
+  border-radius: 2rem;
 }
 .img_perfil {
   z-index: 3;
