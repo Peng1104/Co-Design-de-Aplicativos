@@ -1,0 +1,44 @@
+.main-menu-item {
+  font-family: "Lora", serif;
+}
+
+/* index.html */
+
+.para-index{
+  font-family: "PT Sans", sans-serif;
+  font-size: 2rem;
+}
+
+.sections-menu-item-text-title{
+  font-family: "Lora", serif;
+  font-size: 1rem;
+}
+
+/* secao.html */
+
+.section-para{
+  font-family: "PT Sans", sans-serif;
+  font-size: 2rem;
+}
+
+.texto{
+  font-family: "PT Sans", sans-serif;
+}
+
+/* livro.html */
+
+.book-title {
+  font-weight: bold;
+  font-family: "Lora", serif;
+  font-size:2.5rem;
+}
+
+.book-text {
+  font-family: "PT Sans", sans-serif;
+}
+
+.destaque{
+  font-family: "Lora", serif;
+  font-weight: bold;
+  font-size: 1rem;
+}
