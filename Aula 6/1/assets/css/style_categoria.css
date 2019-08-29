@@ -6,6 +6,7 @@
   border-radius: 30rem;
 
   background-color: white;
+  font-family: 'Lato', sans-serif;
 }
 .img_projeto {
   grid-area: img_projeto;
@@ -28,6 +29,7 @@
 
   padding: 0.3rem;
   background-color: white;
+  font-family: 'Cinzel', serif;
 }
 .projeto4 {
   grid-area: projeto4;
@@ -88,23 +90,28 @@
   font-size: 1.5rem;
   text-align: center;
   padding: 1.3rem 15rem;
+  font-family: 'Cinzel', serif;
 }
 .titulo {
   grid-area: titulo;
   align-self: center;
-  justify-self: center;
+  font-family: 'Cinzel', serif;
 }
 .nome_categoria {
   position: relative;
   font-size: 1.5rem;
   bottom: 5rem;
   left: 50%;
+  font-family: 'Cinzel', serif;
 }
 .descricao_categoria {
   background-color: white;
   margin: 2rem;
-  bottom: 2rem;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: 'Lato', sans-serif;
 }
 .img_categoria {
   position: relative;
@@ -143,6 +150,7 @@
   margin: 0rem 0rem 0rem -5rem;
   padding: 1rem 1rem 1rem 5rem;
   background-color: gold;
+  font-family: 'Cinzel', serif;
 }
 .logo {
   grid-area: logo;
@@ -191,4 +199,7 @@
   grid-template-areas:
   "bloco1 bloco2"
   "contato contato";
+}
+.contato_txt {
+  font-family: 'Lato', sans-serif;
 }
