@@ -32,10 +32,9 @@
 }
 
 .header {
-  position: relative;
-  margin: 20px 0px 0px 20px;
-  grid-column-start: 0;
-  grid-row-start: 0;
+  display: flex;
+  align-items: center;
+  justify-content: stretch;
 }
 
 .img_perfil {
@@ -62,18 +61,12 @@
 
 .name {
   z-index: 0;
-  display: inline-block;
-  position: relative;
-
   border-style: solid;
-  border-radius: 30px;
-  border-width: 2px;
-
-  margin: 0px 0px 0px -60px;
-  padding: 20px 20px 20px 60px;
-  bottom: 2em;
-
+  border-radius: 2rem;
+  border-width: 0.1rem;
   background-color: gold;
+  align-self: center;
+  font-family: 'Cinzel', serif;
 }
 
 .subbloco1 {
@@ -102,40 +95,45 @@
 
   width: 100%;
 }
-
+.h2_b1 {
+  font-family: 'Cinzel', sans-serif;
+}
 .h2_b2 {
   position: relative;
   background-color: white;
   padding: 0.5em 50% 0.5em 50% ;
   margin: 20px;
   justify-content: center;
+  font-family: 'Cinzel', sans-serif;
 }
 
 .projetos {
+  display: flex;
   background-color: white;
   position: relative;
   border-radius: 70px;
-  margin: 20px;
-  width: 900px;
+  background-color: white;
+  border-radius: 30px;
+  margin: 0em 1.5em 0em 1.5em;
+  padding: 20px;
+  justify-content: center;
 }
 
 .img_cat {
   position: relative;
-  border-radius: 70px;
+  border-radius: 10rem;
   border-style: solid;
-  border-width: 8px;
+  border-width: 0.5rem;
   border-color: gold;
-  top: 1px;
-  left: 1px;
+  top: 0.3rem;
+  left: 0.3rem;
 }
 
 .texto_cat_alter {
-  display: inline-block;
-  position: relative;
-  right: 20px;
-  left: 40px;
-  bottom: 10px;
-  width: 700px;
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+  font-family: 'Lato', sans-serif;
 }
 
 .img_perfil_alt {
@@ -158,4 +156,13 @@
   background-color: white;
   padding: 10px 0px 10px 400px ;
   margin: 20px;
+  font-family: 'Cinzel', sans-serif;
+}
+.texto1 {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Lato', sans-serif;
+}
+.contatos_text {
+  font-family: 'Lato', sans-serif;
 }
