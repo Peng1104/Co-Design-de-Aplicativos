@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Livros do Primeiro Ano</title>
+  <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+  <link href="assets/css/reset.css" rel="stylesheet">
+  <link href="assets/css/base.css" rel="stylesheet">
+  <link href="assets/css/index.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body class="body">
+  <!--
+    O corpo (body) é formado por um cabeçalho (header) e uma seção principal (main).
+  -->
+
+  <header class="header">
+    <!--
+      O cabeçalho (header) é formado por um logotipo (figure) e um menu (nav).
+    -->
+
+    <figure class="logo">
+      <!--
+        A tag img é como se fosse texto: espera-se que não esteja solta e sim dentro
+        de alguma tag block. A tag perfeita para esse caso específico é a figure.
+      -->
+      <a href="index.html"><img class="logo-image" src="assets/img/logo.jpg" alt="Logotipo"></a>
+    </figure>
+
+    <nav class="menu">
+      <!--
+        O menu (nav) é formado por um título (h1), um botão (figure) e uma lista (ul).
+      -->
+
+      <h1 class="menu-title">
+        Livros do Primeiro Ano
+      </h1>
+
+      <figure class="menu-figure">
+        <!--
+          A tag img é como se fosse texto: espera-se que não esteja solta e sim dentro
+          de alguma tag block. A tag perfeita para esse caso específico é a figure.
+        -->
+        <a href="#"><img class="menu-image" src="assets/img/menu.png" alt="Abrir Menu"></a>
+      </figure>
+
+      <ul class="menu-list">
+        <!--
+          A lista (ul) é formada por vários itens (li).
+        -->
+        <li class="menu-item"><a class="menu-link" href="secao.html">Eletrônica</a></li>
+        <li class="menu-item"><a class="menu-link" href="secao.html">Metodologia</a></li>
+        <li class="menu-item"><a class="menu-link" href="secao.html">Física</a></li>
+        <li class="menu-item"><a class="menu-link" href="secao.html">Sociais</a></li>
+        <li class="menu-item"><a class="menu-link" href="secao.html">Matemática</a></li>
+        <li class="menu-item"><a class="menu-link" href="secao.html">Programação</a></li>
+        <li class="menu-item"><a class="menu-link" href="secao.html">Inovação</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <!--
+      A seção principal (main) é formada por uma chamada (a tag genérica div,
+      pois não existe uma tag HTML específica para chamadas) e uma lista (ul).
+    -->
+
+    <div class="call">
+      <!--
+        A chamada (div) é formada por uma imagem (figure) e um texto (p).
+      -->
+
+      <figure class="call-figure">
+        <!--
+          A tag img é como se fosse texto: espera-se que não esteja solta e sim dentro
+          de alguma tag block. A tag perfeita para esse caso específico é a figure.
+        -->
+        <img class="call-image" src="assets/img/estante.png" alt="Estante de Livros">
+      </figure>
+
+      <p class="call-text">
+        Quer saber quais são as leituras interessantes do primeiro ano da
+        engenharia? Todos os livros estão disponíveis aqui!
+      </p>
+    </div>
+
+    <ul class="section-list">
+      <!--
+        A lista (ul) é formada por vários itens (li).
+      -->
+
+      <li class="section-item">
+        <!--
+          O item (li) é formado por uma capa (figure) e uma descricao (a tag
+          genérica div, pois não existe tag HTML específica para descrições).
+        -->
+
+        <figure class="section-cover">
+          <!--
+            A tag img é como se fosse texto: espera-se que não esteja solta e sim dentro
+            de alguma tag block. A tag perfeita para esse caso específico é a figure.
+          -->
+          <img class="section-image" src="assets/img/eletronica.jpg" alt="Eletrônica">
+        </figure>
+
+        <div class="section-description">
+          <!--
+            A descrição (div) é formada por um título (h2) e um corpo (p).
+          -->
+
+          <h2 class="section-title">
+            <a class="section-link" href="secao.html">Eletrônica</a>
+          </h2>
+
+          <p class="section-body">
+            Nesta seção você encontrará todos os livros de eletrônica.
+          </p>
+        </div>
+      </li>
+
+      <!--
+        Como os outros itens são análogos, encerramos os comentários por aqui.
+      -->
+
+      <li class="section-item">
+        <figure class="section-cover">
+          <img class="section-image" src="assets/img/metodologia.jpg" alt="Metodologia">
+        </figure>
+        <div class="section-description">
+          <h2 class="section-title">
+            <a class="section-link" href="secao.html">Metodologia</a>
+          </h2>
+          <p class="section-body">
+            Nesta seção você encontrará todos os livros de metodologia.
+          </p>
+        </div>
+      </li>
+
+      <li class="section-item">
+        <figure class="section-cover">
+          <img class="section-image" src="assets/img/fisica.jpg" alt="Física">
+        </figure>
+        <div class="section-description">
+          <h2 class="section-title">
+            <a class="section-link" href="secao.html">Física</a>
+          </h2>
+          <p class="section-body">
+            Nesta seção você encontrará todos os livros de física.
+          </p>
+        </div>
+      </li>
+
+      <li class="section-item">
+        <figure class="section-cover">
+          <img class="section-image" src="assets/img/sociais.png" alt="Sociais">
+        </figure>
+        <div class="section-description">
+          <h2 class="section-title">
+            <a class="section-link" href="secao.html">Sociais</a>
+          </h2>
+          <p class="section-body">
+            Nesta seção você encontrará todos os livros de ciências sociais.
+          </p>
+        </div>
+      </li>
+
+      <li class="section-item">
+        <figure class="section-cover">
+          <img class="section-image" src="assets/img/matematica.jpg" alt="Matemática">
+        </figure>
+        <div class="section-description">
+          <h2 class="section-title">
+            <a class="section-link" href="secao.html">Matemática</a>
+          </h2>
+          <p class="section-body">
+            Nesta seção você encontrará todos os livros de matemática.
+          </p>
+        </div>
+      </li>
+
+      <li class="section-item">
+        <figure class="section-cover">
+          <img class="section-image" src="assets/img/programacao.jpg" alt="Programação">
+        </figure>
+        <div class="section-description">
+          <h2 class="section-title">
+            <a class="section-link" href="secao.html">Programação</a>
+          </h2>
+          <p class="section-body">
+            Nesta seção você encontrará todos os livros de programação.
+          </p>
+        </div>
+      </li>
+
+      <li class="section-item">
+        <figure class="section-cover">
+          <img class="section-image" src="assets/img/inovacao.jpg" alt="Inovação">
+        </figure>
+        <div class="section-description">
+          <h2 class="section-title">
+            <a class="section-link" href="secao.html">Inovação</a>
+          </h2>
+          <p class="section-body">
+            Nesta seção você encontrará todos os livros de inovação.
+          </p>
+        </div>
+      </li>
+
+    </ul>
+  </main>
+</body>
+</html>
