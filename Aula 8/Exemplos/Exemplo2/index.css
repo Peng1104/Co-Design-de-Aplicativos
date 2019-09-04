@@ -1,0 +1,75 @@
+.menu {
+  max-width: 66rem;
+  margin: 1rem auto;
+  border: 1px solid #00FF00;
+  background-color: #000000;
+  color: #00FF00;
+  /*
+    Este display: flex garante que os elementos dentro de .menu
+    ficam lado a lado, pois esse é o comportamento padrão.
+  */
+  display: flex;
+}
+
+.item {
+  /*
+    Este position: relative é inútil para o .item em si, mas é
+    necessário para o position: absolute do .submenu funcionar.
+  */
+  position: relative;
+  /*
+    Esse flex-grow: 1 garante que cada .item expande igualmente.
+  */
+  flex-grow: 1;
+}
+/*
+  Propriedades de .submenu quando o mouse está em cima de .item.
+  Esta sintaxe só funciona se .submenu estiver dentro de .item.
+*/
+.item:hover .submenu {
+  /*
+    Por padrão, o display de um ul é block. Portanto, é assim
+    que neutralizamos o valor padrão none de um .submenu.
+  */
+  display: block;
+}
+
+.title {
+  padding: 1rem;
+  /*
+    A propriedade transition define que a mudança de um valor
+    para outro ocorrerá de maneira gradual, no tempo dado.
+  */
+  transition: background-color .25s, color .25s;
+}
+.title:hover {
+  background-color: #00FF00;
+  color: #000000;
+}
+
+.submenu {
+  position: absolute;
+  top: 3rem;
+  left: 0rem;
+  width: 100%;
+  border: 1px solid #00FF00;
+  background-color: #000000;
+  /*
+    Este display: none garante que, por padrão, o elemento
+    não aparece. Ele nem sequer ocupa o espaço que deveria.
+  */
+  display: none;
+}
+
+.subitem {
+  padding: 1rem;
+  /*
+    A propriedade transition define que a mudança de um valor
+    para outro ocorrerá de maneira gradual, no tempo dado.
+  */
+  transition: background-color .25s, color .25s;
+}
+.subitem:hover {
+  background-color: #00FF00;
+  color: #000000;
+}
