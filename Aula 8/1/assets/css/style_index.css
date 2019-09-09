@@ -165,6 +165,12 @@
 .intro {
   font-family: 'Cinzel', serif;
 }
+.img_texto {
+  display: flex;
+}
+.img_txt {
+  max-width: 43.75rem;
+}
 
 @media (max-width: 360px) {
   .tela {
